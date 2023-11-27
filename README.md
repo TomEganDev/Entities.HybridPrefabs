@@ -19,7 +19,7 @@ See included samples or...
 
 
 ## Hybrid Prefabs
-![Hybrid Prefab Component Preview](./Documentation~/images/HybridPrefabs.png)
+![Hybrid Prefab Component Preview](./Documentation~/images/HybridPrefab.png)
 #### PrefabId
 A unique ushort identifier. These can be manually managed and assigned or you can use the HybridPrefab window (button at top of inspector or via toolbar at HybridPrefabs > Open Window)
 #### DefaultPoolSize
@@ -33,11 +33,11 @@ An array of all PooledBehaviours that need to have their callbacks run. Currentl
 Using the 'Gather Instantiate callbacks' button gets all PooledBehaviours in the prefab hierarchy into this array using GetComponentsInChildren.
 
 
-### PooledBehaviour
+## PooledBehaviour
 
 PooledBehaviour is an abstract component that inherits IOnPoolInstantiate so it receives the OnPoolInstantiate(Entity, World) callback. Create new components inheriting from Pooledbehaviour to implement custom initialization behaviour such as resetting animations or storing entity references in Monobehaviour components.
 
 
-### HybridPrefabCollection
+## HybridPrefabCollection
 
 This is a simple component that calls HybridPrefabPool.RegisterPrefab on every HybridPrefab in HybridPrefabCollection.Prefabs during Awake(). All HybridPrefabs must be registered before they can be used.
