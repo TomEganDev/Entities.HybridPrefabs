@@ -1,0 +1,23 @@
+{
+    "name": "TomEgan.Entities.HybridPrefabs.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:a5baed0c9693541a5bd947d336ec7659",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:44dcb2bf5b9be4b5aa76674c8edcd1d5",
+        "GUID:a061c89f115a8e54a81dd4de2e4c98cd",
+        "GUID:e0cd26848372d4e5c891c569017e11f1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
