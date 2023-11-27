@@ -1,5 +1,10 @@
 # Hybrid Prefabs
 
+HybridPrefabs is a package to assist with managing pooled GameObject prefab instances using Unity Entities.
+This is designed to be an easy and performant way to bridge the gap between GameObjects/Monobehaviours and Entities.
+Entities are treated as the source of truth, prefab lifetimes are connected to entities (entity creation gets a new prefab instance, entity destruction returns the instance to the pool) and all data transformations/updates should be driven by systems (in the ECS sense).
+The included samples are designed to be simple examples of how the package can be used but it can be used with any GameObject components (including UI, Physics, VFX, Animation etc).
+
 ## Setup
 
 Add this package by using the 'Add package from git URL...' + menu option from the Unity package manager.
