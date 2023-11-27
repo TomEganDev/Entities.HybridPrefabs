@@ -19,7 +19,7 @@ See included samples or...
 
 
 ## Hybrid Prefabs
-![Hybrid Prefab Component Preview](./Documentation~/images/HybridPrefabs.png)
+![Hybrid Prefab Component Preview](./Documentation~/images/HybridPrefab.png)
 #### PrefabId
 A unique ushort identifier. These can be manually managed and assigned or you can use the HybridPrefab window (button at top of inspector or via toolbar at HybridPrefabs > Open Window)
 #### DefaultPoolSize
